@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    color: #292D34;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+.container{
+    margin:0 10rem;
+}
+
+
+/* Header Style Start */
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.navbar .nav-logo img{
+    width:15rem;
+}
+
+.navbar .nav-links{
+    display: flex;
+    gap:4rem;
+    font-size: 1.6rem;
+}
+
+.navbar .nav-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:4rem;
+    font-size: 1.6rem; 
+}
+
+.navbar .nav-button button{
+    padding: 1.2rem 2.4rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color:#FFFFFF;
+    border-radius: 1.2rem;
+    background-image: linear-gradient(to right, #FF02F0, #FFC800);
+}
+
+.banner{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.banner .banner-details h1{
+    font-size: 6.4rem;
+    width: 50rem;
+    line-height: 7.5rem;
+}
+.banner .banner-details h1 > span{
+    color: #7B68EE;
+}
+
+.banner .banner-button{
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 3rem;
+}
+.banner .banner-button button{
+    padding:1.6rem 3.6rem;
+    border-radius: 1.2rem;
+    color:#FFFFFF;
+    background-color: #7B68EE;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.banner .banner-button p{
+    font-size: 1.2rem;
+    color: #B9BEC7;
+    font-weight: 400;
+}
+
+.banner .banner-review{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap:0.5rem;
+    margin-top:3rem;
+    font-size: 1.4rem;
+    color:#292D34;
+}
+
+.banner .banner-review > i{
+    color: #FC9D48;
+}
+
+.banner .banner-logo{
+    display: flex;
+    gap:2rem;
+    margin-top: 1.5rem;
+}
