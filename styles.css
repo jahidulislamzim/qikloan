@@ -127,3 +127,24 @@ body{
     gap:2rem;
     margin-top: 1.5rem;
 }
+
+
+/* Companies Style Start */
+
+.companies{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.companies h4{
+    font-size: 1.2rem;
+    color:#7C828D;
+    margin-bottom: 2rem;
+}
+
+.companies .companies-logos{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:6rem;
+}
