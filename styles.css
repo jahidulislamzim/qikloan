@@ -30,6 +30,33 @@ body{
     margin:0 14.4rem;
 }
 
+.section-title{
+    font-size: 4.2rem;
+    width: 45rem;
+    line-height: 4.8rem;
+}
+.section-description{
+    margin-top: 4rem;
+    width:45rem;
+    font-size: 1.4rem;
+}
+.button{
+        margin-top: 4rem;
+        padding:1.6rem 3.6rem;
+        border-radius: 1.2rem;
+        color:#FFFFFF;
+        font-weight: 600;
+        cursor: pointer;
+}
+
+.section-container{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 6.5rem;
+        border-radius: 4rem;
+        padding:6rem;
+}
 
 /* Header Style Start */
 
@@ -152,37 +179,120 @@ body{
 /* Consulting Section Start */
 
 .consulting{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 6.5rem;
     background-color: #F7F0FD;
-    border-radius: 4rem;
-    padding:6rem;
-}
-
-.consulting .consulting-details h1{
-    font-size: 4.2rem;
-    width: 45rem;
-    line-height: 4.8rem;
-}
-
-.consulting .consulting-details p{
-    margin-top: 4rem;
-    width:45rem;
-    font-size: 1.4rem;
 }
 
 .consulting .consulting-details button{
-    margin-top: 4rem;
-    padding:1.6rem 3.6rem;
-    border-radius: 1.2rem;
-    color:#FFFFFF;
     background-color: #B368EE;
-    font-weight: 600;
-    cursor: pointer;
 }
 
 .consulting img{
     width:47%;
+}
+
+/* Growth Section Start */
+
+.growth{
+    flex-direction: column;
+    align-items:start;
+    background-color: #FCF4F7;
+}
+
+.growth .growth-nav{
+    display:flex;
+    gap:3rem;
+    font-size: 1.8rem;
+}
+
+.growth .growth-nav .underline {
+    display: inline-block;
+    position:relative;
+  }
+  
+.growth .growth-nav .underline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -0.6rem; 
+    width: 100%;
+    height: 0.3rem; 
+    background-color: #FF6AA3;
+    border-radius: 0.5rem;
+  }
+
+.growth .growth-container{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+}
+
+.growth .growth-container .growth-details button{
+    background-color: #FF6AA3;
+}
+
+.growth .growth-container img{
+    width:47%;
+}
+
+.clients {
+    background-color: #E5F8F3;
+    position: relative;
+    padding-bottom: 12rem;
+    justify-content: right;
+
+}
+
+.clients .client-image {
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    left: 6%;
+    transform: translateX(-6%);
+    width: 25rem;
+    height: 36rem;
+    border-radius: 2rem;
+
+}
+
+.clients .client-image img {
+    position: absolute;
+    bottom: -2rem;
+    right: -2rem;
+}
+
+.clients .clients-content h1{
+    width: 60rem;
+    font-size: 3.2rem;
+}
+
+.clients .clients-content p{
+    width:62rem;
+}
+
+.clients .clients-content .client-details{
+    display:flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.clients .clients-content .client-details h1{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.clients .clients-content .client-details .slide-button{
+    font-size: 4rem;
+    display: flex;
+    gap:1.5rem;
+}
+
+.clients .clients-content .client-details .slide-button i{
+    color: #00B884;
+}
+
+.clients .clients-content .client-details .slide-button i:nth-child(1){
+    color: #72d8bb;
 }
